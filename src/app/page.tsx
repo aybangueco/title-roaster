@@ -27,6 +27,7 @@ export default function Home() {
         return;
       }
     } catch (error) {
+      console.error(error);
       alert("Error roasting title");
     } finally {
       setTitle("");
